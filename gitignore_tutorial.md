@@ -10,9 +10,9 @@ blank lines can be used for spacing
 ? - matches 1 character
 [abc] - matches a, b, or c
 ** - matches nested directories - a/**/z matches
-a/z
-a/b/z
-a/b/c/z
+- a/z
+- a/b/z
+- a/b/c/z
 So if all of the 50 images are JPEG images in the "samples" folder, we could add the following line to .gitignore to have Git ignore all 50 images.
 ```
 ```
